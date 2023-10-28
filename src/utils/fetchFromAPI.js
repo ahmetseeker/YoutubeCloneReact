@@ -4,7 +4,7 @@ const options = {
   method: 'GET',
   url: BASE_URL,
   headers: {
-    'X-RapidAPI-Key': 'ca293cb967mshbf1760982525221p1f8342jsnc0cfe8d81713',
+    'X-RapidAPI-Key': process.env.REACT_APP_YOUTUBE_RAPID_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };
